@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gpJ-JV-iPX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main Navigation Controller-->
+        <scene sceneID="aYW-kY-B19">
+            <objects>
+                <navigationController storyboardIdentifier="NavController" id="gpJ-JV-iPX" customClass="MainNavigationController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RQo-WV-vid">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ykv-c7-d6J" kind="relationship" relationship="rootViewController" id="Htx-Ex-vJN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q5Q-yA-orZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716.5" y="-1277.5"/>
+        </scene>
+        <!--BEOORDELEN-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="RateCard" id="BYZ-38-t0r" customClass="CardDetailViewController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-image1" translatesAutoresizingMaskIntoConstraints="NO" id="SSe-eV-Poh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Backstairs Boogaloo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHp-gL-6Ru">
+                                <rect key="frame" x="20" y="370" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7n8-Yd-kpL">
+                                <rect key="frame" x="16" y="433" width="339" height="91"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bring back the funk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pW6-MM-ER3">
+                                <rect key="frame" x="20" y="394" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.67843137249999996" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VH9-12-QRH">
+                                <rect key="frame" x="20" y="87" width="335" height="265"/>
+                                <color key="backgroundColor" red="0.0" green="0.67843137254901964" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fme-EA-FEd">
+                                <rect key="frame" x="0.0" y="543" width="375" height="124"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-wj-tEM" customClass="RedBaseOneRateButton" customModule="BaseOne" customModuleProvider="target">
+                                        <rect key="frame" x="187" y="35" width="188" height="89"/>
+                                        <state key="normal" image="Delete_white"/>
+                                        <connections>
+                                            <action selector="btnDislikeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CZc-ZF-oBn"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lijkt dit je wat?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EO0-kW-WiV">
+                                        <rect key="frame" x="20" y="0.0" width="335" height="27"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN9-l5-k7k" customClass="GreenBaseOneRateButton" customModule="BaseOne" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="35" width="188" height="89"/>
+                                        <state key="normal" image="Plain-heart_white"/>
+                                        <connections>
+                                            <action selector="btnLikeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5e-id-m6o"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="GV1-L2-9gy">
+                                <rect key="frame" x="169" y="586" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GOn-wC-HOz">
+                                <rect key="frame" x="20" y="532" width="335" height="1"/>
+                                <color key="backgroundColor" red="0.24516650879999999" green="0.24516650879999999" blue="0.24516650879999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQV-Tg-mRX">
+                                <rect key="frame" x="0.0" y="543" width="375" height="124"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Partner is aan zet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZp-Jg-FbL">
+                                        <rect key="frame" x="20" y="48" width="335" height="27"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="BEOORDELEN" id="UfE-3p-Rnt"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ainLoadingTurn" destination="GV1-L2-9gy" id="UxI-uw-fyv"/>
+                        <outlet property="btnDislike" destination="hbF-wj-tEM" id="flH-R8-HAW"/>
+                        <outlet property="btnLike" destination="lN9-l5-k7k" id="Upd-yg-plg"/>
+                        <outlet property="ivwCardImage" destination="VH9-12-QRH" id="TGf-EW-g7y"/>
+                        <outlet property="lblSubtitle" destination="pW6-MM-ER3" id="SYJ-1f-3cJ"/>
+                        <outlet property="lblTitle" destination="BHp-gL-6Ru" id="5jA-1W-YMd"/>
+                        <outlet property="tvwDescription" destination="7n8-Yd-kpL" id="Szf-FF-Tvv"/>
+                        <outlet property="vwRateContainer" destination="fme-EA-FEd" id="Qf9-Bw-l8X"/>
+                        <outlet property="vwStatusContainer" destination="EQV-Tg-mRX" id="GrN-e5-L9D"/>
+                        <segue destination="4L7-Ju-Upk" kind="show" identifier="GoToCardSelect" id="7t6-V5-gvN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="833.5" y="-453.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y0E-S6-Mdx">
+            <objects>
+                <viewController id="DpK-Ob-8bh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wq5-3e-aJc"/>
+                        <viewControllerLayoutGuide type="bottom" id="uab-EY-pws"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tVD-wy-p82">
+                        <rect key="frame" x="0.0" y="0.0" width="195" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Decks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOB-8a-uTx">
+                                <rect key="frame" x="11" y="6" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Een deck bevat meerdere kaarten. Ieder deck betreft een eigen categorie." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqQ-Uk-Y1e">
+                                <rect key="frame" x="7" y="39" width="178" height="62"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITl-ox-sp6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172.5" y="-2140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jjc-os-8vG">
+            <objects>
+                <viewController id="yxL-Ug-a3Z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vbq-Ef-v5U"/>
+                        <viewControllerLayoutGuide type="bottom" id="D7c-ce-c7N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ybk-Pg-qRN">
+                        <rect key="frame" x="0.0" y="0.0" width="195" height="140"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Decks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7o-4G-F9S">
+                                <rect key="frame" x="11" y="6" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Selecteer 1 of meerdere decks door erop te drukken. Deze kaarten zullen dan te gebruiken zijn in BaseOne!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajr-JY-eIz">
+                                <rect key="frame" x="7" y="39" width="178" height="96.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bP-Hn-YL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38.5" y="-2125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7IH-sR-U6q">
+            <objects>
+                <viewController id="OBi-pw-d3n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0CG-k0-skp"/>
+                        <viewControllerLayoutGuide type="bottom" id="lsI-kL-iRv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bb4-ho-Lb8">
+                        <rect key="frame" x="0.0" y="0.0" width="195" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Decks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wv-kY-YL5">
+                                <rect key="frame" x="11" y="6" width="335" height="40"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Wanneer je tevreden bent met je selectie, druk dan op de &quot;klaar&quot;-knop." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D8-5m-JMu">
+                                <rect key="frame" x="11" y="39" width="178" height="96.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5f-RU-LId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249.5" y="-2140"/>
+        </scene>
+        <!--0 GESELECTEERD-->
+        <scene sceneID="JqZ-3e-LN3">
+            <objects>
+                <viewController storyboardIdentifier="SelectDecks" id="ykv-c7-d6J" customClass="DeckSelectViewController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VkH-aW-Fmg"/>
+                        <viewControllerLayoutGuide type="bottom" id="RH3-q7-qnK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j0f-uY-PgD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-image1" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-26-SMl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0HP-IC-jHz">
+                                <rect key="frame" x="20" y="86" width="335" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xIM-4x-658">
+                                    <size key="itemSize" width="162" height="162"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DeckCollectionViewCell" id="mDr-lB-uUI" customClass="DeckCollectionViewCell" customModule="BaseOne" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gbg-b7-RXm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7g-1Z-O7G">
+                                                    <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="imvBackgroundImage" destination="Gbg-b7-RXm" id="Q53-Dj-Wfq"/>
+                                            <outlet property="imvCheckedOverlay" destination="D7g-1Z-O7G" id="u3C-LE-1JB"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ykv-c7-d6J" id="g7y-mK-UVZ"/>
+                                    <outlet property="delegate" destination="ykv-c7-d6J" id="YQo-XE-BTq"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-3W-X64" userLabel="Anchor 2">
+                                <rect key="frame" x="184" y="170" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN4-ew-IOe" userLabel="Anchor 3">
+                                <rect key="frame" x="317" y="42" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQJ-kB-8pp" userLabel="Anchor 1">
+                                <rect key="frame" x="187" y="65" width="1" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="0 GESELECTEERD" id="Li1-De-SHp">
+                        <barButtonItem key="leftBarButtonItem" title="Koppelen" id="eUc-BB-BKp">
+                            <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="Cwn-aj-qj0" kind="show" identifier="segueQRscanner" id="tlY-j8-jKp"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Klaar" id="2WY-bO-L2p">
+                            <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="4L7-Ju-Upk" kind="show" identifier="GoToCardSelect" id="wdL-Wm-zwV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="cvwDeckCollection" destination="0HP-IC-jHz" id="o4y-3E-Mwi"/>
+                        <segue destination="DpK-Ob-8bh" kind="popoverPresentation" identifier="popoverDecksTutorial1" popoverAnchorView="SQJ-kB-8pp" id="eDj-w7-7up">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES"/>
+                        </segue>
+                        <segue destination="yxL-Ug-a3Z" kind="popoverPresentation" identifier="popoverDecksTutorial2" popoverAnchorView="Cth-3W-X64" id="OMD-X6-hfN">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                        <segue destination="OBi-pw-d3n" kind="popoverPresentation" popoverAnchorView="fN4-ew-IOe" id="Qrl-Vt-GFg">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWM-Yo-nPm" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-171.5" y="-1277.5"/>
+        </scene>
+        <!--JOUW BEURT-->
+        <scene sceneID="PCU-68-TJw">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="4L7-Ju-Upk" customClass="CardSelectViewController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q1z-Vg-9Se"/>
+                        <viewControllerLayoutGuide type="bottom" id="68W-Jc-qbr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="my8-FD-8ju">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-image1" translatesAutoresizingMaskIntoConstraints="NO" id="Nxd-g3-Bfs">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="JOUW BEURT" id="buy-20-wZX"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="GoToStatusDetailScreen" id="Fly-Zj-ZGs"/>
+                        <segue destination="Rh4-SP-lVe" kind="show" identifier="GoToDisabledCardScreen" id="cGd-Ol-wq5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J4d-xL-J8H" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669.5" y="-1277.5"/>
+        </scene>
+        <!--PARTNER IS AAN ZET-->
+        <scene sceneID="4Fw-8G-T6E">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="Rh4-SP-lVe" customClass="CardSelectViewControllerDisabled" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="riN-0o-9WZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Qf-6J-l01"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jbK-dm-Nrc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-image1" translatesAutoresizingMaskIntoConstraints="NO" id="S6k-Kf-umE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PARTNER IS AAN ZET" id="evQ-26-T0f"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="GoToStatusDetailScreen2" id="hHp-1A-6Mg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MSc-jZ-Ot0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1238.5" y="-1243.5"/>
+        </scene>
+        <!--START SCAN-->
+        <scene sceneID="OIv-Tw-tG0">
+            <objects>
+                <viewController id="Cwn-aj-qj0" customClass="StartCameraViewController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XgE-Z7-fe2"/>
+                        <viewControllerLayoutGuide type="bottom" id="hfQ-Np-L6g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqT-qh-LO7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-image1" translatesAutoresizingMaskIntoConstraints="NO" id="YSh-Hh-zjc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qr" translatesAutoresizingMaskIntoConstraints="NO" id="jdn-Fb-ESL">
+                                <rect key="frame" x="67" y="210" width="240" height="247"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-s1-buw">
+                                <rect key="frame" x="155" y="523" width="64" height="64"/>
+                                <state key="normal" image="photo-camera"/>
+                                <connections>
+                                    <segue destination="Tvn-3h-c8Z" kind="show" id="PNA-6J-9Ns"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="START SCAN" id="ZkJ-UQ-ROX">
+                        <barButtonItem key="leftBarButtonItem" image="Left-arrow_darkgray" id="nZm-Gs-siH">
+                            <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="ykv-c7-d6J" kind="show" id="St2-SI-j4L"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RxW-AQ-bYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-171.5" y="-307.5"/>
+        </scene>
+        <!--FIND QR-->
+        <scene sceneID="PIG-Qb-bWQ">
+            <objects>
+                <viewController id="Tvn-3h-c8Z" customClass="ScanQRCodeViewController" customModule="BaseOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XdD-dW-76w"/>
+                        <viewControllerLayoutGuide type="bottom" id="KEn-Mm-jhR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iEe-SU-d5J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FIND QR" id="vw8-da-Tc8">
+                        <barButtonItem key="leftBarButtonItem" image="Left-arrow_darkgray" id="FSo-BJ-mrh">
+                            <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="Cwn-aj-qj0" kind="show" id="cER-yS-KYm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0OV-ON-fgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="377.5" y="-307.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background-image1" width="1067" height="1600"/>
+        <image name="Delete_white" width="256" height="256"/>
+        <image name="Left-arrow_darkgray" width="22" height="22"/>
+        <image name="Plain-heart_white" width="256" height="256"/>
+        <image name="photo-camera" width="64" height="64"/>
+        <image name="qr" width="270" height="266"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Htx-Ex-vJN"/>
+        <segue reference="tlY-j8-jKp"/>
+        <segue reference="wdL-Wm-zwV"/>
+        <segue reference="hHp-1A-6Mg"/>
+    </inferredMetricsTieBreakers>
+</document>
